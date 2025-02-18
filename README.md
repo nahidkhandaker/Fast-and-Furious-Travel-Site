@@ -14,3 +14,35 @@ This Learning Management System project is built with
 
 _**ADD a STAR ⭐️ to this project 👆 if you like "Django Courses" project.**_
 
+# Fast & Famous Travels
+
+Welcome to **Fast & Famous Travels** - A Django-based travel website to explore tours, activities, and more. Follow the steps below to set up and run this project locally.
+
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Setup Database](#setup-database)
+- [Running the Project](#running-the-project)
+- [Testing](#testing)
+- [Deployment](#deployment)
+
+## Prerequisites
+
+Make sure you have the following installed:
+- **Python 3.8+** (Recommended version: 3.8 or higher)
+- **pip** (Python package manager)
+- **SQLite3** (For database)
+- **git** (To clone the repository)
+
+### Install Python Dependencies
+Install the required Python dependencies using `pip` from the `requirements.txt` file. If you're using a virtual environment (recommended), activate it before proceeding.
+
+```bash
+# Create and activate a virtual environment
+python3 -m venv env
+source env/bin/activate  # On Windows, use `env\Scripts\activate`
+
+# Install the required packages
+pip install -r requirements.txt
+# For Testing
+python manage.py test
