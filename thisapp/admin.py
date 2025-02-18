@@ -9,11 +9,11 @@ class AppDetailAdmin(admin.ModelAdmin):
 
 	# Disabling the Add functionality for App Detail
 	def has_add_permission(self, request):
-		return False
+		return True
 	
 	#Disabling Delete functionality to prevent accidental deletion of App Details/Settings
 	def has_delete_permission(self, request, obj = None):
-		return False
+		return True
 
 
 class SocialMediaAdmin(admin.ModelAdmin):
